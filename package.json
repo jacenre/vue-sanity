@@ -29,8 +29,8 @@
   "module": "lib/index.mjs",
   "types": "lib/index.d.ts",
   "files": [
-    "dist/**/*",
-    "dist/index.d.ts",
+    "lib/**/*",
+    "lib/index.d.ts",
     "!**/*.map"
   ],
   "scripts": {
