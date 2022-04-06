@@ -1,5 +1,5 @@
 {
-  "name": "vue-sanity",
+  "name": "@jacenre/vue-sanity",
   "version": "0.1.0",
   "description": "Sanity integration for Vue",
   "keywords": [
@@ -11,12 +11,12 @@
     "typescript",
     "javascript"
   ],
-  "repository": "jacenre/vue-sanity",
-  "license": "MIT",
-  "author": {
-    "name": "Jore Booy <hi@jore.dev>",
-    "url": "https://github.com/jacenre"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacenre/vue-sanity.git"
   },
+  "license": "MIT",
+  "author": "Jore Booy <hi@jore.dev> (https://github.com/jacenre)",
   "sideEffects": false,
   "exports": {
     ".": {
@@ -95,5 +95,13 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@6.32.2"
+  "packageManager": "pnpm@6.32.2",
+  "bugs": {
+    "url": "https://github.com/jacenre/vue-sanity/issues"
+  },
+  "homepage": "https://github.com/jacenre/vue-sanity#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
