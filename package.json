@@ -1,6 +1,6 @@
 {
   "name": "vue-sanity",
-  "version": "0.12.0",
+  "version": "0.1.0",
   "description": "Sanity integration for Vue",
   "keywords": [
     "vue",
@@ -11,26 +11,26 @@
     "typescript",
     "javascript"
   ],
-  "repository": "danielroe/vue-sanity",
+  "repository": "jacenre/vue-sanity",
   "license": "MIT",
   "author": {
-    "name": "Daniel Roe <daniel@roe.dev>",
-    "url": "https://github.com/danielroe"
+    "name": "Jore Booy <hi@jore.dev>",
+    "url": "https://github.com/jacenre"
   },
   "sideEffects": false,
   "exports": {
     ".": {
-      "require": "./lib/index.cjs",
-      "import": "./lib/index.mjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
     },
     "./package.json": "./package.json"
   },
-  "main": "lib/index.cjs",
-  "module": "lib/index.mjs",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib/**/*",
-    "lib/index.d.ts",
+    "dist/**/*",
+    "dist/index.d.ts",
     "!**/*.map"
   ],
   "scripts": {
